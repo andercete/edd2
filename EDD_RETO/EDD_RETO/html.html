@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Documentación de Proyecto</title>
+    <style>
+      body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            margin-bottom: 12px;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        summary {
+            font-weight: bold;
+        }
+
+        .param-name {
+            font-weight: bold;
+        }
+
+        .param-description {
+            margin-left: 10px;
+        }
+
+        .member {
+            margin-bottom: 20px;
+        }
+
+        /* Estilo adicional para resaltar los botones */
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: #ffffff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Documentación de Proyecto</h1>
+
+    <?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="css.css"?>
+<doc>
+    <assembly>
+        <name>EDD_RETO</name>
+    </assembly>
+    <members>
+        <member name="T:EDD_RETO.Form1">
+            <summary>Clase principal que representa el formulario principal de la aplicación.</summary>
+        </member>
+        <member name="M:EDD_RETO.Form1.#ctor">
+            <summary>Constructor de la clase Form1.</summary>
+        </member>
+        <member name="M:EDD_RETO.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>Evento que se ejecuta al hacer clic en el botón "Información". Abre la ventana de información de Mongolia.</summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>Evento que se ejecuta al hacer clic en el botón "Preguntas". Abre la ventana de preguntas de Mongolia.</summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.#ctor">
+            <summary>Constructor de la clase InformacionMongoliaForm.</summary>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.button1_Click(System.Object,System.EventArgs)">
+            <summary>Evento que se ejecuta al hacer clic en el botón "Historia". Muestra información sobre la historia de Mongolia.</summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.button2_Click(System.Object,System.EventArgs)">
+            <summary>Evento que se ejecuta al hacer clic en el botón "Idioma". Muestra información sobre el idioma de Mongolia.</summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.button3_Click(System.Object,System.EventArgs)">
+            <summary>Evento que se ejecuta al hacer clic en el botón "Comida". Muestra información sobre la comida de Mongolia.</summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.button4_Click(System.Object,System.EventArgs)">
+            <summary>Evento que se ejecuta al hacer clic en el botón "Geografía". Muestra información sobre la geografía de Mongolia.</summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.button5_Click(System.Object,System.EventArgs)">
+            <summary>Evento que se ejecuta al hacer clic en el botón "Cultura". Muestra información sobre la cultura de Mongolia.</summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.button1_Click(System.Object,System.EventArgs)">
+            <summary>Evento de clic del botón "Generar Pregunta". Genera y muestra una pregunta aleatoria basada en los temas seleccionados.</summary>
+            <param name="sender">Objeto que desencadenó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.GenerarPreguntaAleatoria(System.String)">
+            <summary>Genera una pregunta aleatoria según el tema especificado.</summary>
+            <param name="tema">El tema de la pregunta.</param>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.ObtenerRespuestaSeleccionada">
+            <summary>Obtiene la respuesta seleccionada por el usuario.</summary>
+            <returns>La respuesta seleccionada (a, b, c).</returns>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.button2_Click(System.Object,System.EventArgs)">
+            <summary>Evento de clic del botón para verificar la respuesta seleccionada.</summary>
+        </member>
+        <member name="M:EDD_RETO.Program.Main">
+            <summary>The main entry point for the application.</summary>
+        </member>
+    </members>
+</doc>
+
+    <script>
+        const buttons = document.querySelectorAll('.btn');
+
+// Agregar un evento de clic a cada botón
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        console.log(`Has hecho clic en el botón con el texto: ${button.innerText}`);
+        // Aquí puedes agregar la lógica que desees al hacer clic en los botones
+    });
+});
+    </script>
+</body>
+</html>

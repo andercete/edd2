@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+code {
+    font-family: Consolas, monospace;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+summary {
+    font-weight: bold;
+}
+
+.param-name {
+    font-weight: bold;
+}
+
+.param-description {
+    margin-left: 10px;
+}
+
+.member {
+    margin-bottom: 20px;
+}

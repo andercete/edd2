@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EDD_RETO</name>
+    </assembly>
+    <members>
+        <member name="T:EDD_RETO.Form1">
+            <summary>
+            Clase principal que representa el formulario principal de la aplicación.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.Form1.#ctor">
+            <summary>
+            Constructor de la clase Form1.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento que se ejecuta al hacer clic en el botón "Información".
+            Abre la ventana de información de Mongolia.
+            </summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento que se ejecuta al hacer clic en el botón "Preguntas".
+            Abre la ventana de preguntas de Mongolia.
+            </summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="F:EDD_RETO.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:EDD_RETO.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:EDD_RETO.InformacionMongoliaForm">
+            <summary>
+            Clase que representa la ventana de información de Mongolia.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.#ctor">
+            <summary>
+            Constructor de la clase InformacionMongoliaForm.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento que se ejecuta al hacer clic en el botón "Historia".
+            Muestra información sobre la historia de Mongolia.
+            </summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento que se ejecuta al hacer clic en el botón "Idioma".
+            Muestra información sobre el idioma de Mongolia.
+            </summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento que se ejecuta al hacer clic en el botón "Comida".
+            Muestra información sobre la comida de Mongolia.
+            </summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento que se ejecuta al hacer clic en el botón "Geografía".
+            Muestra información sobre la geografía de Mongolia.
+            </summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.button5_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento que se ejecuta al hacer clic en el botón "Cultura".
+            Muestra información sobre la cultura de Mongolia.
+            </summary>
+            <param name="sender">Objeto que genera el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="F:EDD_RETO.InformacionMongoliaForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:EDD_RETO.InformacionMongoliaForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:EDD_RETO.PreguntasMongoliaForm">
+            <summary>
+            Formulario principal para el juego de preguntas sobre Mongolia.
+            </summary>
+        </member>
+        <member name="F:EDD_RETO.PreguntasMongoliaForm.temasSeleccionados">
+            <summary>
+            Constructor de la clase PreguntasMongoliaForm.
+            Inicializa los componentes del formulario y las variables necesarias.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento de clic del botón "Generar Pregunta".
+            Genera y muestra una pregunta aleatoria basada en los temas seleccionados.
+            </summary>
+            <param name="sender">Objeto que desencadenó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.GenerarPreguntaAleatoria(System.String)">
+            <summary>
+            Genera una pregunta aleatoria según el tema especificado.
+            </summary>
+            <param name="tema">El tema de la pregunta.</param>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.GenerarPreguntaHistoria">
+            <summary>
+            Genera una pregunta de historia de forma aleatoria.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.GenerarPreguntaIdioma">
+            <summary>
+            Genera una pregunta de idioma de forma aleatoria.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.GenerarPreguntaComida">
+            <summary>
+            Genera una pregunta de comida de forma aleatoria.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.GenerarPreguntaGeografia">
+            <summary>
+            Genera una pregunta de geografía de forma aleatoria.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.GenerarPreguntaCultura">
+            <summary>
+            Genera una pregunta de cultura de forma aleatoria.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.ObtenerRespuestaSeleccionada">
+            <summary>
+            Obtiene la respuesta seleccionada por el usuario.
+            </summary>
+            <returns>La respuesta seleccionada (a, b, c).</returns>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento de clic del botón para verificar la respuesta seleccionada.
+            </summary>
+        </member>
+        <member name="F:EDD_RETO.PreguntasMongoliaForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:EDD_RETO.PreguntasMongoliaForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:EDD_RETO.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:EDD_RETO.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:EDD_RETO.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="T:EDD_RETO.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:EDD_RETO.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>
